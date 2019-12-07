@@ -65,7 +65,76 @@ function StringMethods() {
 
 function Arrays() {
 
+    //create an array
+    let colorArray = ["black", "white", "red", "orange", "yellow", "pink", "blue", "green"];
+    let color = "";
+
+    //simple get
+    document.getElementById("index2").innerHTML = colorArray[2];
+
+    //for loop listing
+
+    for (let i = 0; i < colorArray.length; i++) {
+
+        color += colorArray[i] + "<br>";
+    }
+
+    document.getElementById("colorLister").innerHTML = color;
+
+    //push method example
+    let colorArray2 = ["black", "white", "red", "orange", "yellow", "pink", "blue", "green"];
+    let color2 = "";
+
+    colorArray2.push("turquiose");
+
+    for (let j = 0; j < colorArray2.length; j++) {
+
+        color2 += colorArray2[j] + "<br>";
+    }
+
+    document.getElementById("colorLister2").innerHTML = color2;
+
+    //sorting
+    let colorArray3 = ["black", "white", "red", "orange", "yellow", "pink", "blue", "green"];
+    let color3 = "";
+
+    colorArray3.sort();
+
+    for (let k = 0; k < colorArray3.length; k++) {
+
+        color3 += colorArray3[k] + "<br>";
+    }
+
+    document.getElementById("sorted").innerHTML = color3;
 
 }
+
+function Literals() {
+
+    let info = {
+        image: "http://www.darkhorsedp.com/DarkHorse/ClientSites/LJ/ASSETS/IMAGES/INDEX/blkJacket.jpg", 
+        year: 2019,
+        productType: "Jackets",
+        productLine: "Rain Jackets",
+        color: "Black",
+        details: [" Reversible ", " Waterproof ", " Gortex ", " Hooded "],
+        location: {
+            floor: 1,
+            room: "Outerware",
+            rack: "7B"
+        }
+    }
+
+    document.getElementById("year").innerHTML = info.year;
+    document.getElementById("productType").innerHTML = info.productType;
+    document.getElementById("productLine").innerHTML = info.productLine;
+    document.getElementById("details").innerHTML = info.details;
+    document.getElementById("floor").innerHTML = info.location.floor;
+    document.getElementById("room").innerHTML = info.location.room;
+    document.getElementById("bin").innerHTML = info.location.rack;
+    document.getElementById("prodImage").innerHTML = "<img src = " + info.image +" />";
+
+}
+
 
 

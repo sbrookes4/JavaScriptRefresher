@@ -23,7 +23,7 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> Basic Reveal </h1>
+	  <h1 class="titleA mb-3">Basic Reveal </h1>
 
 	  <button class="ml-5 mb-3" onclick="Reveal()">Click to Reveal</button>
 
@@ -33,7 +33,7 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> Toggle Text </h1>
+	  <h1 class="titleA mb-3">Toggle Text </h1>
 
 	  <button class="ml-5 mb-3" onclick="Toggle()">Click to Toggle</button>
 
@@ -43,7 +43,7 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> Defining let & const </h1>
+	  <h1 class="titleA mb-3">Defining let & const </h1>
 
 	  <button class="ml-5 mb-3" onclick="LetConst()">Let and Const</button>
 
@@ -57,7 +57,7 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> Concatenations </h1>
+	  <h1 class="titleA mb-3">Concatenations </h1>
 
 	  <button class="ml-5 mb-3" onclick="OldMethod()">Old Concatenation</button>
 
@@ -75,7 +75,7 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> String Methods </h1>
+	  <h1 class="titleA mb-3">String Methods </h1>
 
 	  <button class="ml-5 mb-3" onclick="StringMethods()">String Methods</button>
 
@@ -93,12 +93,55 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
       
-	  <h1 class="titleA mb-3"> Arrays </h1>
+	  <h1 class="titleA mb-3">Arrays </h1>
 
 	  <button class="ml-5 mb-3" onclick="Arrays()">Arrays</button>
 
 	  <p class="textA">
-		<b>Array:</b> <span id="arrayOutput"></span><br>
+		<b>Array[2]:</b> <span id="index2"></span>
+		<br>
+		<br>
+
+		<b><u>Available Colors</u></b><br>
+
+		<span id="colorLister"></span><br>
+
+		<b><u>Available Colors (after push method)</u></b><br>
+
+		<span id="colorLister2"></span><br>
+
+		<b><u>Colors Sorted:</u></b><br> <span id="sorted"></span><br>
+
+	  </p>
+
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
+      
+	  <h1 class="titleA mb-3">Literals</h1>
+
+	  <button class="ml-5 mb-3" onclick="Literals()">Get Product Info</button>
+
+	  <p class="textA">
+
+		<b><u>Product Information:</u></b>
+		<br>
+		<br>
+		<b>Product Image:</b>
+
+	  </p>
+
+	  <div class="ml-5" id="prodImage"></div>
+
+	  <p class="textA">
+
+			<b>Year: </b></><span id="year"></span><br>
+			<b>Product Type: </b></><span id="productType"></span><br>
+			<b>Product Line: </b></><span id="productLine"></span><br>
+			<b>Product Details: </b></><span id="details"></span><br>
+			<b>Floor Location: </b></><span id="floor"></span><br>
+			<b>Room Location: </b></><span id="room"></span><br>
+			<b>Bin Location: </b></><span id="bin"></span><br>
 	  </p>
 
     </div>
