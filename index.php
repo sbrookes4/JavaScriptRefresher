@@ -138,15 +138,45 @@
 			<b>Year: </b></><span id="year"></span><br>
 			<b>Product Type: </b></><span id="productType"></span><br>
 			<b>Product Line: </b></><span id="productLine"></span><br>
+			<b>Color: </b></><span id="color"></span><br>
 			<b>Product Details: </b></><span id="details"></span><br>
 			<b>Floor Location: </b></><span id="floor"></span><br>
 			<b>Room Location: </b></><span id="room"></span><br>
-			<b>Bin Location: </b></><span id="bin"></span><br>
+			<b>Rack Location: </b></><span id="rack"></span><br>
 	  </p>
 
     </div>
 
+	<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
+      
+	  <h1 class="titleA mb-3">Constructors</h1>
 
+	  <button class="ml-5 mb-3" onclick="Constructor()">Get Product Info (Constructor)</button>
+
+	  <p class="textA">
+
+		<b><u>Product Information:</u></b>
+		<br>
+		<br>
+		<b>Product Image:</b>
+
+	  </p>
+
+	  <div class="ml-5" id="prodImageConstructor"></div>
+
+	  <p class="textA">
+
+			<b>Year: </b></><span id="yearConstructor"></span><br>
+			<b>Product Type: </b></><span id="productTypeConstructor"></span><br>
+			<b>Product Line: </b></><span id="productLineConstructor"></span><br>
+			<b>Color: </b></><span id="colorConstructor"></span><br>
+			<b>Product Details: </b></><span id="detailsConstructor"></span><br>
+			<b>Floor Location: </b></><span id="floorConstructor"></span><br>
+			<b>Room Location: </b></><span id="roomConstructor"></span><br>
+			<b>Rack Location: </b></><span id="rackConstructor"></span><br>
+	  </p>
+
+	</div>
 
 
 

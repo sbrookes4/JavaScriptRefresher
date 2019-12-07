@@ -128,13 +128,45 @@ function Literals() {
     document.getElementById("year").innerHTML = info.year;
     document.getElementById("productType").innerHTML = info.productType;
     document.getElementById("productLine").innerHTML = info.productLine;
+    document.getElementById("color").innerHTML = info.color;
     document.getElementById("details").innerHTML = info.details;
     document.getElementById("floor").innerHTML = info.location.floor;
     document.getElementById("room").innerHTML = info.location.room;
-    document.getElementById("bin").innerHTML = info.location.rack;
+    document.getElementById("rack").innerHTML = info.location.rack;
     document.getElementById("prodImage").innerHTML = "<img src = " + info.image +" />";
 
 }
 
+//Constructor
+//https://www.youtube.com/watch?v=hdI2bqOjy3c
+//59:57
+function Product(year, prodType, prodLine, color, details, floor, room, rack, prodImg) {
 
+    this.year = year;
+    this.prodType = prodType;
+    this.prodLine = prodLine;
+    this.color = color;
+    this.details = details;
+    this.floor = floor;
+    this.room = room;
+    this.rack = rack;
+    this.prodImg = prodImg;
+
+}
+
+let product1 = new Product(2018, " Sweatshirts ", " Heavy Sweatshirts ", " Red ", " Reversible ", 2, " Outerware ", " 4A ", "http://www.darkhorsedp.com/DarkHorse/ClientSites/LJ/ASSETS/IMAGES/INDEX/red.jpg" );
+
+function Constructor(){
+
+    document.getElementById("yearConstructor").innerHTML = product1.year;
+    document.getElementById("productTypeConstructor").innerHTML = product1.prodType;
+    document.getElementById("productLineConstructor").innerHTML = product1.prodLine;
+    document.getElementById("colorConstructor").innerHTML = product1.color;
+    document.getElementById("detailsConstructor").innerHTML = product1.details;
+    document.getElementById("floorConstructor").innerHTML = product1.floor;
+    document.getElementById("roomConstructor").innerHTML = product1.room;
+    document.getElementById("rackConstructor").innerHTML = product1.rack;
+    document.getElementById("prodImageConstructor").innerHTML = "<img src = " + product1.prodImg + " />";
+    
+}
 
