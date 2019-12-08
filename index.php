@@ -11,6 +11,7 @@
 <!-- NAVBAR COMPONENT -->
 <?php require 'COMPONENTS/NAVBAR/navbar.php'; ?>
 
+<!-- for the sake of the JS review I just made one long php file; my standard practice is to component-ize everything as seen in the Portal.php and API.php page as well as my many other projects on brookesportfolio.com - Component-ization is the best way to do stuff -->
 <div class="container-fluid p-0 mt-5">
 
   <div class="row">
@@ -113,6 +114,14 @@
 		<b><u>Colors Sorted:</u></b><br> <span id="sorted"></span><br>
 
 	  </p>
+
+	  <h1 class="titleA mb-3">Reverse String</h1>
+
+	  <p class="textA">Alphabet</p>
+
+	  <button class="ml-5 mb-3" onclick="Arrays2()">Reverse String</button>
+
+	  <p id="reverseString" class="textA">
 
     </div>
 

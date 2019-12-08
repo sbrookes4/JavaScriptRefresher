@@ -1,4 +1,6 @@
 //JavaScript Refresher & ES 6 tutorial
+//for simplicity sake I just put all the JS in one file but I would
+//break out these functions into seperate components normally
 
 //alert("test");
 //console.log("test");
@@ -107,6 +109,15 @@ function Arrays() {
 
     document.getElementById("sorted").innerHTML = color3;
 
+}
+
+function Arrays2() {
+
+    let word = "Alphabet";
+
+    let x = word.split("").reverse().join("");
+
+    document.getElementById("reverseString").innerHTML = x;
 }
 
 function Literals() {

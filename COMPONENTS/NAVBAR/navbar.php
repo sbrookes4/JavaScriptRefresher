@@ -24,7 +24,7 @@
 
 	      <li class="nav-item">
 
-	        <a class="nav-link" style="font-size:3vh;" href="contact.php">Contact</a>
+	        <a class="nav-link" style="font-size:3vh;" href="contact.php">API's</a>
 
 	      </li>
 	      
