@@ -10,15 +10,15 @@
 
 	    <ul class="navbar-nav mr-auto">
 
-	      <li class="nav-item active">
+	      <li class="nav-item">
 
-	        <a class="nav-link" style="font-size:3vh;" href="index.php">Home &nbsp<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" style="font-size:3vh;" href="index.php">Home &nbsp</a>
 
 	      </li>
 
 	      <li class="nav-item">
 
-	        <a class="nav-link" style="font-size:3vh;" href="shop.php">Shop &nbsp</a>
+	        <a class="nav-link" style="font-size:3vh;" href="portal.php">Portal &nbsp</a>
 
 	      </li>
 

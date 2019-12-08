@@ -3,14 +3,7 @@
     "",
     "\\ASSETS",
     "\\ASSETS\\IMAGES",
-    "\\COMPONENTS",
-    "\\COMPONENTS\\FOOTER",
-    "\\COMPONENTS\\HEAD",
-    "\\COMPONENTS\\HEADER",
-    "\\COMPONENTS\\NAVBAR",
-    "\\CSS",
-    "\\JS"
+    "\\ASSETS\\IMAGES\\INDEX"
   ],
-  "SelectedNode": "\\index.php",
   "PreviewInSolutionExplorer": false
 }
