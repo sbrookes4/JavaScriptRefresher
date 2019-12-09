@@ -18,16 +18,16 @@
 
 	      <li class="nav-item">
 
-	        <a class="nav-link" style="font-size:3vh;" href="portal.php">Portal &nbsp</a>
+	        <a class="nav-link" style="font-size:3vh;" href="signup.php">Sign Up &nbsp</a>
 
-	      </li>
+	      </li>	      
 
 	      <li class="nav-item">
 
-	        <a class="nav-link" style="font-size:3vh;" href="contact.php">API's</a>
+	        <a class="nav-link" style="font-size:3vh;" href="portal.php">Portal &nbsp</a>
 
 	      </li>
-	      
+    
 	    </ul>
 
 	  </div>

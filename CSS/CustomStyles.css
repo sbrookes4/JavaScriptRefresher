@@ -38,6 +38,16 @@ button {
     float: right;
 }
 
+.labelStyle{
+    font-weight:900;
+}
+
+.inputBox{
+    border:1px solid black;
+    border-radius: 6px;
+    width:20vw;
+}
+
 .thumbnail{
     width:15vw;
 }
@@ -74,6 +84,12 @@ button {
         margin-left: 2vw;
         margin-right: 2vw;
     }
+
+.inputBox{
+    border:1px solid black;
+    border-radius: 6px;
+    width:50vw;
+}
 
     .footerText {
         font-size: 18px;
